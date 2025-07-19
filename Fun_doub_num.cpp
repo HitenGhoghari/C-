@@ -9,5 +9,7 @@ int double_number(int n)
 
 int main()
 {
-    std::cout<<double_number(7);
+    int a;
+    std::cin >> a;
+    std::cout<<double_number(a);
 }
